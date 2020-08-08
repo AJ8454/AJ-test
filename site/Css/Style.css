@@ -1,9 +1,9 @@
 body{
     margin:0;
     padding: 0%;
-    background-color: #15af96;
-    font-family: segoe UI Light, Segio WP, Helvetica Neue, Helvetica, sans-serif;
-    color: #526573;
+    font-family: segoe UI Light, Segio WP, Helvetica Neue, Helvetica, sans-serif; 
+    background: url(../Images/background.jpg) no-repeat  center center fixed;    
+    background-size: cover;
 }
 
 header{
@@ -67,9 +67,10 @@ section.loginframe{
     
 }
 
+
 h1{
-    font-family: cursive;
-    font-size: 50px;
+    font-family: segoe UI Light, Segio WP, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 60px;
     color:brown;
     text-align: center;
 }
@@ -105,6 +106,26 @@ button{
     font-family: cursive;
     font-size: 15px;
     margin:0 10px 0 430px;
-    
 }
 
+footer{
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    background-color: #263238;
+    color: #b5b5b5;
+    border-top: 1px solid #2ca6b0;
+}
+
+footer .left, footer .right{
+    float: left;
+    width: 50%;
+    font-size: 12px;
+}
+
+footer .right{
+    text-align: right;
+}
