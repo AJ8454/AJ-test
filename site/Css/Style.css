@@ -1,10 +1,6 @@
 body{
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    position: fixed;
-    bottom: 0;
+    margin:0;
+    padding: 0%;
     font-family: segoe UI Light, Segio WP, Helvetica Neue, Helvetica, sans-serif; 
     background: url(../Images/background.jpg) no-repeat  center center fixed;    
     background-size: cover;
@@ -12,13 +8,8 @@ body{
 }
 
 header{
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 1;
     padding:  6xp 0;
-    background-color: #e91e63;
+    background-color: #c2185b;
 }
 
 .container{
@@ -42,19 +33,16 @@ ul li{
 .logo{
     width: 1000px;
     height: 75px;
-    position: fixed;
     background: url(../Images/brandlogo.png) center center no-repeat;    
 }
 
 .PhoneNumber{
     float: right;
-    position: fixed;
     color: rgb(2, 2, 2);
 }
 
 .PhoneNumber .icon{
     float: left;
-    position: fixed;
     width: 30px;
     height: 20px;
     background: url(../Images/calling.png) center center no-repeat;
@@ -71,17 +59,14 @@ ul li{
 section.loginframe{
     overflow: hidden;
     margin: 0 0 0 0px;
-    position: fixed;
     padding: 20px 0;
-    
 }
 
 
 h1{
     font-family: segoe UI Light, Segio WP, Helvetica Neue, Helvetica, sans-serif;
     font-size: 60px;
-    position: fixed;
-    color:brown;
+    color:#ff6e40;
     text-align: center;
 }
 
@@ -89,17 +74,14 @@ input{
     width: 250px;
     padding: 12px;
     margin:0 10px 0 370px;
-    position: fixed;
     border: 1px solid #333;
     border-radius: 3px;
     color: #747474;
 }
 
 select{
-    
     width: 200px; ;
     height: 30px;
-    position: fixed;
     border: 1px solid #333;
     border-radius: 3px;
     color: #747474;
@@ -114,8 +96,8 @@ button{
     background-color: #f7d203;
     border: 1px solid #aaccd9;
     border-radius: 3px;
-    color: #e91e63;
-    position: fixed;
+    color: #8d6e63;
+    font: bold;
     font-family: cursive;
     font-size: 15px;
     margin:0 10px 0 430px;
