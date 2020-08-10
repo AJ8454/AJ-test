@@ -63,14 +63,6 @@ header{
 
 }
 
-#loginButton{
-    float: center;
-    width: 15%;
-    margin: auto 100px;
-    margin-top: 6px;
-    position: fixed;
-}
-
 h1{
     font-family: segoe UI Light, Segio WP, Helvetica Neue, Helvetica, sans-serif;
     font-size: 50px;
@@ -92,6 +84,17 @@ input{
     opacity: 1;
 }
 
+.loginButton{
+   margin: auto;
+   width: 30%;
+   padding: 10px;
+}
+
+
+.terms{
+    text-align: center;
+    font-size: 20px;
+}
 
 footer{
     left: 0;
