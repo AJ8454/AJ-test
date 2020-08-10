@@ -2,10 +2,11 @@ body{
     margin:0;
     padding: 0%;
     font-family: segoe UI Light, Segio WP, Helvetica Neue, Helvetica, sans-serif; 
-    background: url(../Images/background.jpg) no-repeat  center center fixed;    
+    background: url(../Images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    border-top: 1px solid #2ca6b0;
-}
 
 header{
     padding:  6xp 0;
