@@ -1,13 +1,14 @@
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-  } 
 
-body{
-    background: url(../Images/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.backgroudImage{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-image: url("../Images/background.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -59,8 +60,8 @@ header{
     margin: auto;
     padding: 50px 50px;
     color: #747474
-    margin-top: 6px;
-  }
+
+}
 
 #loginButton{
     float: center;
@@ -68,7 +69,6 @@ header{
     margin: auto 100px;
     margin-top: 6px;
     position: fixed;
-    
 }
 
 h1{
